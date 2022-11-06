@@ -6,3 +6,7 @@ pybind11_add_module(example
     # src/example.cpp 
     src/more_complex_example.cpp
 )
+
+pybind11_add_module(test 
+    src/return_pointer.cpp
+)
